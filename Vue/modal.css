@@ -603,6 +603,15 @@ button{
     width: 80%;
     cursor: pointer;
 }
+.Ajout{
+    background-color: var(--blue);
+    width: 15%;
+    height: 1.8rem;
+    border-radius: 20px;
+    font-size: 1.4em;
+    color: white;
+    font-weight: bold;
+}
 
 /* .modal{
     width: 100%;

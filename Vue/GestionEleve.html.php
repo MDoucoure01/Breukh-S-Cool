@@ -245,7 +245,7 @@
 							</tr>
 						</tbody>
 					</table> -->
-                    <div>
+                    <div class="formulaire">
                         <form>
                             <div class="form-group">
                               <label for="nom">Nom :</label>
@@ -288,9 +288,18 @@
                               <label for="numero">Numéro :</label>
                               <input type="text" id="numero" name="numero" required>
                             </div>
-                        
-                            <input type="submit" value="Ajouter">
-                            <input type="submit" value="Annuler">
+							<div class="form-group">
+                              <label for="niveau">Type :</label>
+                              <select id="niveau" name="niveau" required>
+                                <option value="">Sélectionnez un Type</option>
+                                <option value="CP">Interne</option>
+                                <option value="CE1">Externe</option>
+                              </select>
+                            </div>
+							<div class="form-group">
+								<input type="submit" value="Ajouter">
+								<input type="submit" value="Annuler">
+							</div>
                           </form>
                     </div>
 				</div>
