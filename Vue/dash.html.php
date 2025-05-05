@@ -28,7 +28,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="Modal.html.php">
+				<a href="AjoutEleve">
                     <i class='bx bxs-user-detail'></i>
 					<!-- <i class='bx bxs-shopping-bag-alt' ></i> -->
 					<span class="text">Gestion Eléves</span>
@@ -42,14 +42,14 @@
 				</a>
 			</li>
 			<li>
-				<a href="niveau.html.php">
+				<a href="/niveau">
                     <i class='bx bxs-left-top-arrow-circle' ></i>
 					<!-- <i class='bx bxs-message-dots' ></i> -->
 					<span class="text">Gestion Des Niveaux</span>
 				</a>
 			</li>
 			<li>
-				<a href="Anne.html.php">
+				<a href="AjoutAnnee">
                     <i class='bx bxs-graduation' ></i>
 					<!-- <i class='bx bxs-group' ></i> -->
 					<span class="text">Gestion Annee Scolaire</span>
@@ -213,35 +213,6 @@
 						</tbody>
 					</table>
 				</div>
-				<!-- <div class="todo">
-					<div class="head">
-						<h3>Todos</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-					</ul>
-				</div> -->
 			</div>
 		</main>
 		<!-- MAIN -->

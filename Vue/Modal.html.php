@@ -11,9 +11,7 @@
 
 	<title>Breukh'S Cool</title>
 </head>
-<body>
-
-
+<body >
 	<!-- SIDEBAR -->
 	<section id="sidebar">
 		<a href="dash.html.php" class="brand">
@@ -29,33 +27,33 @@
 			</li>
 			<li>
 				<a href="Modal.html.php">
-                    <i class='bx bxs-user-detail'></i>
+					<i class='bx bxs-user-detail'></i>
 					<!-- <i class='bx bxs-shopping-bag-alt' ></i> -->
 					<span class="text">Gestion Eléves</span>
 				</a>
 			</li>
 			<li>
 				<a href="classe.html.php">
-                    <i class='bx bxs-school' ></i>
+					<i class='bx bxs-school' ></i>
 					<!-- <i class='bx bxs-doughnut-chart' ></i> -->
 					<span class="text">Gestion Des Classes</span>
 				</a>
 			</li>
 			<li>
 				<a href="niveau.html.php">
-                    <i class='bx bxs-left-top-arrow-circle' ></i>
+					<i class='bx bxs-left-top-arrow-circle' ></i>
 					<!-- <i class='bx bxs-message-dots' ></i> -->
 					<span class="text">Gestion Des Niveaux</span>
 				</a>
 			</li>
 			<li>
 				<a href="Anne.html.php">
-                    <i class='bx bxs-graduation' ></i>
+					<i class='bx bxs-graduation' ></i>
 					<!-- <i class='bx bxs-group' ></i> -->
 					<span class="text">Gestion Annee Scolaire</span>
 				</a>
 			</li>
-            <li>
+			<li>
 				<a href="#">
 					<i class='bx bxs-group' ></i>
 					<span class="text">Mon Team</span>
@@ -71,7 +69,7 @@
 			</li>
 			<li>
 				<a href="#" class="logout">
-                    <i class='bx bxs-log-out' ></i>
+					<i class='bx bxs-log-out' ></i>
 					<!-- <i class='bx bx-horizontal-left' ></i> -->
 					<span class="text">Logout</span>
 				</a>
@@ -125,12 +123,12 @@
 					<i class='bx bxs-cloud-download' ></i>
 					<span class="text">Download PDF</span>
 				</a> -->
-                <select name="" id="" class="btn-download">
-                    <option value="Selection">Selectionnner un option</option>
-                    <option value="Primaire">Primaire</option>
-                    <option value="Secondaire">Secondaire</option>
-                    <option value="Lycee">Lycee</option>
-                </select>
+				<select name="" id="" class="btn-download">
+					<option value="Selection">Selectionnner un option</option>
+					<option value="Primaire">Primaire</option>
+					<option value="Secondaire">Secondaire</option>
+					<option value="Lycee">Lycee</option>
+				</select>
 			</div>
 
 			<!-- <ul class="box-info">
@@ -142,7 +140,7 @@
 					</span>
 				</li>
 				<li>
-                    <i class='bx bxs-school' ></i> -->
+					<i class='bx bxs-school' ></i> -->
 					<!-- <i class='bx bxs-group' ></i> -->
 					<!-- <span class="text">
 						<h3>34</h3>
@@ -150,7 +148,7 @@
 					</span>
 				</li>
 				<li>
-                    <i class='bx bxs-group' ></i> -->
+					<i class='bx bxs-group' ></i> -->
 					<!-- <i class='bx bxs-dollar-circle' ></i> -->
 					<!-- <span class="text">
 						<h3>100</h3>
@@ -166,7 +164,7 @@
 						<h3>Apprenant Primaire</h3>
 						<i class='bx bx-search' ></i>
 						<i class='bx bx-filter' ></i>
-                        <button class="Ajout">Ajout</button>
+						<button class="Ajout">Ajout</button>
 					</div>
 					<table>
 						<thead>
@@ -200,7 +198,7 @@
 								</td>
 								<td>01-10-2021</td>
 								<td><span class="status pending">CI B</span></td>
-                                <td><span class="status completed">200</span></td>
+								<td><span class="status completed">200</span></td>
 								<td><span class="status completed">2020/2021</span></td>
 								<td><button class="status completed">Aff.</button></td>
 								<td><button class="status completed">Mod.</button></td>
@@ -213,7 +211,7 @@
 								</td>
 								<td>01-10-2021</td>
 								<td><span class="status process">CM2 A</span></td>
-                                <td><span class="status completed">200</span></td>
+								<td><span class="status completed">200</span></td>
 								<td><span class="status completed">2020/2021</span></td>
 								<td><button class="status completed">Aff.</button></td>
 								<td><button class="status completed">Mod.</button></td>
@@ -226,7 +224,7 @@
 								</td>
 								<td>01-10-2021</td>
 								<td><span class="status pending">CM2 B</span></td>
-                                <td><span class="status completed">200</span></td>
+								<td><span class="status completed">200</span></td>
 								<td><span class="status completed">2020/2021</span></td>
 								<td><button class="status completed">Aff.</button></td>
 								<td><button class="status completed">Mod.</button></td>
@@ -239,7 +237,7 @@
 								</td>
 								<td>01-10-2021</td>
 								<td><span class="status completed">CM2 B</span></td>
-                                <td><span class="status completed">200</span></td>
+								<td><span class="status completed">200</span></td>
 								<td><span class="status completed">2020/2021</span></td>
 								<td><button class="status completed">Aff.</button></td>
 								<td><button class="status completed">Mod.</button></td>

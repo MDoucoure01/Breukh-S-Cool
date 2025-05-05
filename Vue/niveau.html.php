@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,18 @@
 	<title>Breukh'S Cool</title>
 </head>
 <body>
+<div class="contener">
+		<div class="cont">
+			<input type="text" name="modifi">
+			<div class="boutons">
+				<form action="post">
+					<input type="hidden" name="libelle" value="" id="idyear">
+					<input type="submit" value="Modifier" name="mod" class="Modifier">
+					<input type="submit" value="Anuller" class="Anuller">
+				</form>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- SIDEBAR -->
@@ -28,7 +41,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="Modal.html.php">
+				<a href="AjoutEleve">
                     <i class='bx bxs-user-detail'></i>
 					<!-- <i class='bx bxs-shopping-bag-alt' ></i> -->
 					<span class="text">Gestion Eléves</span>
@@ -121,12 +134,6 @@
 						</li>
 					</ul>
 				</div>
-				<!-- <select name="" id="" class="btn-download">
-                    <option value="Selection">Selectionnner un option</option>
-                    <option value="Primaire">Primaire</option>
-                    <option value="Secondaire">Secondaire</option>
-                    <option value="Lycee">Lycee</option>
-                </select> -->
 			</div>
 
 			
@@ -135,76 +142,55 @@
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
-						<h3>Primaire</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
-                        <button class="Ajout">Ajout</button>
+						<h3>Annee Scolaire</h3>
+						<form action="" method="post" class="block">
+							<input type="text" class="entree" name="libelle" placeholder="aaaa/AAAA">
+							<button class="Ajout" name="ok">Ajout</button>
+  						</form>
 					</div>
+					<?php
+					var_dump ($data);
+					?>
 					<table>
 						<thead>
 							<tr>
-								<th>Annee</th>
-								<th>Nombre de Apprenant</th>
-								<!-- <th colspan="2">Enum</th> -->
+								<th>libelle</th>
+								<th>Status</th>
+								<th colspan="3">Action</th>
 							</tr>
 						</thead>
 						<tbody>
+							
+							<?php foreach($data as $key => $ligne): ?>
 							<tr>
+								<td><?php echo $ligne['libelle']; ?></td>
+								<td><?php echo $ligne['status']; ?></td>
 								<td>
-									<p>2020/2021</p>
+									<form method="post" action="">
+										<input type="hidden" name="<?php echo $ligne['libelle']; ?>" value="aff">
+										<button type="submit" class="status completed AjoutModifSUpp" name="afficher">Aff.</button>
+									</form>
 								</td>
-								<td>700</td>
-								<!-- <td><span class="status completed">CI A</span></td>
-								<td><span class="status completed">CI B</span></td> -->
-							</tr>
-							<tr>
 								<td>
-									<p>2021/2022</p>
+
+									<input type="hidden" name="libelle" value="<?php echo $ligne['libelle']; ?>">
+									<button type="submit" class="status completed AjoutModifSUpp modification" name="Modifier">Modif.</button>
 								</td>
-								<td>679</td>
-								<!-- <td><span class="status completed">CI A</span></td>
-								<td><span class="status completed">CI B</span></td> -->
-							</tr>
-							<tr>
 								<td>
-									<p>2023/2024</p>
+									<input type="hidden" name="libelle" value="<?php echo $ligne['libelle']; ?>">
+									<button type="submit" class="status completed AjoutModifSUpp" name="supprimer">Sup.</button>
 								</td>
-								<td>1099</td>
-								<!-- <td><span class="status completed">CI A</span></td>
-								<td><span class="status completed">CI B</span></td> -->
 							</tr>
+							<?php endforeach; ?>
+							<?php
+							if (isset($_POST['Modifier'])) {
+								var_dump($_POST['libelle']);
+							}
+							?>
+						</tbody>
 						</tbody>
 					</table>
 				</div>
-				<!-- <div class="todo">
-					<div class="head">
-						<h3>Todos</h3>
-						<i class='bx bx-plus' ></i>
-						<i class='bx bx-filter' ></i>
-					</div>
-					<ul class="todo-list">
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-						<li class="not-completed">
-							<p>Todo List</p>
-							<i class='bx bx-dots-vertical-rounded' ></i>
-						</li>
-					</ul>
-				</div> -->
 			</div>
 		</main>
 		<!-- MAIN -->

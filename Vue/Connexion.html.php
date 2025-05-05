@@ -10,7 +10,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- CSS File -->
     <link rel="stylesheet" href="connexion.css">
 
 </head>
@@ -40,7 +39,7 @@
                 <input class="form-check-input" type="checkbox" id="check">
                 <label class="form-check-label" for="check">Remember me</label>
             </div>
-            <a href="dash.html.php"><input class="btn btn-success w-100" type="submit" value="Connexion">cli</a>
+            <a href="AjoutEleve"><input class="btn btn-success w-100" type="submit" value="Connexion">cli</a>
         </form>
 
     </div>
